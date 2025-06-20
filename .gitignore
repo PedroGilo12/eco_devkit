@@ -1,0 +1,60 @@
+# KiCad project files to ignore
+
+# Backup and autosave
+*.bak
+*.kicad_prl
+*.tmp
+*.bck
+*~
+
+# Build artifacts
+*.net
+*.xml
+*.cmp
+*.xsl
+*.csv
+*.dcm
+*.lst
+*.map
+*.log
+
+# Intermediate or export files
+*.gbr
+*.gtp
+*.gto
+*.gts
+*.gtl
+*.gbl
+*.gbs
+*.gbo
+*.gml
+*.drl
+*.zip
+*.pdf
+*.ps
+*.svg
+*.step
+*.stp
+*.iges
+*.igs
+*.3dshapes
+
+# KiCad 5/6/7 specific
+*.cache
+*.kicad_pcb-bak
+fp-info-cache
+sym-lib-table-bak
+
+# Fabrication output folders (optional)
+fabrication/
+gerbers/
+outputs/
+plots/
+
+# Ignore user-specific configuration (can be shared if team agrees)
+*.kicad_sch-prl
+*.kicad_pcb-prl
+
+# IDE-specific (optional)
+.vscode/
+.idea/

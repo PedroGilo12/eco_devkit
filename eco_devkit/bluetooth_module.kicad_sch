@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "768443e9-0a45-4790-844f-8fed4e0e8ef3")
+	(paper "A4")
+	(title_block
+		(title "EcoBoard")
+		(company "EcoEnterprise")
+	)
+	(lib_symbols)
+)
