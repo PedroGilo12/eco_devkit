@@ -3113,7 +3113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EFR32BG22C224F512GN32-C"
 			(at 78.74 72.39 0)
 			(effects
 				(font
@@ -3122,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/silicon-labs/EFR32BG22C224F512GN32-C/11610897"
 			(at 78.74 72.39 0)
 			(effects
 				(font
@@ -3131,7 +3131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF TXRX+MCU BLE 32QFN"
 			(at 78.74 72.39 0)
 			(effects
 				(font
