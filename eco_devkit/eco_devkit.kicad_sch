@@ -67,7 +67,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "146c382c-2a6c-4a12-90a2-a26f2a1dd60b")
-		(property "Sheetname" "peripherals"
+		(property "Sheetname" "Peripherals 2"
 			(at 232.41 75.4884 0)
 			(effects
 				(font
@@ -109,7 +109,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a3f9a86b-c305-4ba8-be31-b3cd3a950ab4")
-		(property "Sheetname" "Analog Peripherals"
+		(property "Sheetname" "Peripherals 1"
 			(at 191.77 75.4884 0)
 			(effects
 				(font
