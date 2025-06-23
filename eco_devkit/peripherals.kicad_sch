@@ -993,6 +993,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EcoDevkit:LTR-329ALS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.636 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTR-329ALS_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "LTR-329A"
+					(at 3.81 -7.874 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 1.27 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -13.97 -2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 3.81)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
@@ -1890,6 +2032,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2118,6 +2385,18 @@
 		)
 	)
 	(rectangle
+		(start 96.52 91.44)
+		(end 172.72 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 465ee37a-76ed-4112-ba11-e7c6fdd03e54)
+	)
+	(rectangle
 		(start 17.78 31.75)
 		(end 74.93 88.9)
 		(stroke
@@ -2249,6 +2528,18 @@
 		)
 		(uuid "f93f39c1-f72a-4596-880d-2cd746208c19")
 	)
+	(text "LIGHT SENSOR I2C"
+		(exclude_from_sim no)
+		(at 111.506 94.996 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "ff346d0f-1868-42fd-94ee-8a6420f89942")
+	)
 	(junction
 		(at 20.32 80.01)
 		(diameter 0)
@@ -2298,6 +2589,36 @@
 			(type default)
 		)
 		(uuid "13607b1a-0067-4100-b1be-7c563dc22b42")
+	)
+	(wire
+		(pts
+			(xy 194.31 43.18) (xy 194.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1500b87f-56a6-41c6-8d60-0bc5b56caa60")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207d47db-438a-40da-b1f3-758c359cfe49")
+	)
+	(wire
+		(pts
+			(xy 107.95 118.11) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2325dfe3-f72a-478b-bbfb-5840fa304c68")
 	)
 	(wire
 		(pts
@@ -2411,6 +2732,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 66.04) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421d07f3-9059-4c99-9ff4-e50a6ca60f6b")
+	)
+	(wire
+		(pts
 			(xy 135.89 46.99) (xy 151.13 46.99)
 		)
 		(stroke
@@ -2448,6 +2779,16 @@
 			(type default)
 		)
 		(uuid "4a224e68-7a54-4eeb-aff9-f881f37f2e8d")
+	)
+	(wire
+		(pts
+			(xy 107.95 114.3) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d103c46-e880-4b32-b0e9-b8c34da47e5b")
 	)
 	(wire
 		(pts
@@ -2548,6 +2889,16 @@
 			(type default)
 		)
 		(uuid "71345aab-89bb-4254-a584-3635d33a7806")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 157.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718123f0-aac8-4bed-895b-d961f1b82801")
 	)
 	(wire
 		(pts
@@ -2708,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "b2d09f28-8069-4883-a51b-58b5690f6479")
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66622c9-2bbb-4f0a-b8b4-8a4b04564bbc")
 	)
 	(wire
 		(pts
@@ -2901,6 +3262,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 121.92) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7025f4c-997c-42f5-9a98-93c1755bba59")
+	)
+	(wire
+		(pts
 			(xy 34.29 80.01) (xy 40.64 80.01)
 		)
 		(stroke
@@ -2988,6 +3359,16 @@
 			(justify right bottom)
 		)
 		(uuid "7f5ad63b-0682-4db4-af14-42f107764ba2")
+	)
+	(label "LIGHT_SENS_SDA"
+		(at 157.48 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "805ee409-9629-4c6b-a7e5-f1be114f2f2f")
 	)
 	(label "BTN1_IN"
 		(at 69.85 48.26 180)
@@ -3089,6 +3470,16 @@
 		)
 		(uuid "c911b76a-305f-4429-9942-7d8606c68f28")
 	)
+	(label "LIGHT_SENS_SCL"
+		(at 157.48 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5e7e8d6-df9d-42d5-b92e-32138de20c71")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
 		(at 52.07 133.35 0)
@@ -3099,7 +3490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c8daad-8ed7-4eb6-b9e9-038718a5124a")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 53.34 127 0)
 			(effects
 				(font
@@ -3157,7 +3548,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3172,7 +3563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fb3871c-d139-4a7a-a3f7-bd5e6849c837")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 109.22 60.198 90)
 			(effects
 				(font
@@ -3226,7 +3617,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3242,7 +3633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a07e539-d5c7-4fd0-97af-6393d8e60d9e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR031"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -3293,7 +3684,73 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR03")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 194.31 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ef26530-d2da-4834-9249-7b10f73923d5")
+		(property "Reference" "#PWR023"
+			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7d680e7-8d15-4218-ac90-2e64bdfe5d07")
+		)
+		(instances
+			(project ""
+				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3309,7 +3766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f927a56-df1b-4e8d-8ca0-df5d5427df01")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR035"
 			(at 257.81 74.93 0)
 			(effects
 				(font
@@ -3359,7 +3816,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR07")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3374,7 +3831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30535687-4793-4e8e-b956-77635281055f")
-		(property "Reference" "R3"
+		(property "Reference" "R12"
 			(at 108.966 49.784 90)
 			(effects
 				(font
@@ -3428,7 +3885,81 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R3")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EcoDevkit:LTR-329ALS")
+		(at 128.27 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3065e2c0-b474-4d2f-9ca9-9a0b95bbdf63")
+		(property "Reference" "U4"
+			(at 127.635 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.635 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e445c8f2-4bc8-45df-872a-954df3c6e514")
+		)
+		(pin "3"
+			(uuid "6f301f76-cfcf-44d5-9001-655b750f6db1")
+		)
+		(pin "1"
+			(uuid "52b5a8ab-ccc9-42c3-90b3-0be437af7162")
+		)
+		(pin "4"
+			(uuid "5225c825-8eba-4613-a48f-364234d2c47c")
+		)
+		(instances
+			(project ""
+				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3519,7 +4050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448ce134-0ff9-413f-9644-dc8d926df09d")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 108.966 70.358 90)
 			(effects
 				(font
@@ -3573,7 +4104,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3589,7 +4120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bfd30b0-0c10-4e44-8366-c6eeaccea863")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 52.07 41.91 0)
 			(effects
 				(font
@@ -3659,7 +4190,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3675,7 +4206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d616a7f-b863-4aec-ac65-14998257971a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR029"
 			(at 20.32 90.17 0)
 			(effects
 				(font
@@ -3726,7 +4257,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR01")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3742,7 +4273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5a4495-8977-4a93-9e63-32e3d62dbd3f")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 129.54 38.1 0)
 			(effects
 				(font
@@ -3812,7 +4343,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3897,7 +4428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e6c7d33-271a-4463-af6c-e10074e37264")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 37.084 115.57 90)
 			(effects
 				(font
@@ -3951,7 +4482,73 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R1")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 107.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ea5e2d-c42f-4455-9123-6aa99f2a4642")
+		(property "Reference" "#PWR024"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "138682ee-a788-473c-a34a-833ad14c06c5")
+		)
+		(instances
+			(project "eco_devkit"
+				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4108,7 +4705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 63.5 0)
+		(at 194.31 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4116,8 +4713,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff9f795-f207-486a-9588-2de3202096aa")
-		(property "Reference" "#PWR05"
-			(at 194.31 69.85 0)
+		(property "Reference" "#PWR033"
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 68.58 0)
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 63.5 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 63.5 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 63.5 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4763,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR05")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4181,7 +4778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a18c4352-aa67-4e40-b865-6c2a7d329b78")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 108.966 39.116 90)
 			(effects
 				(font
@@ -4235,7 +4832,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4250,7 +4847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b39c0fec-b6f8-4371-816d-78cfaae13c39")
-		(property "Reference" "R7"
+		(property "Reference" "R16"
 			(at 237.49 58.166 0)
 			(effects
 				(font
@@ -4304,7 +4901,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R7")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be122372-5273-45dc-ba04-25908cdfcd85")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 177.038 50.546 0)
 			(effects
 				(font
@@ -4373,7 +4970,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4541,7 +5138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a14c7c-32ec-4ec1-97b1-b2e02859b9af")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR030"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -4591,7 +5188,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR02")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4607,7 +5204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7251b2-f1cd-4b39-82c9-7e2b757ddfe4")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 29.21 60.96 0)
 			(effects
 				(font
@@ -4615,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2202"
+		(property "Value" "PTS636"
 			(at 29.21 63.5 0)
 			(effects
 				(font
@@ -4623,7 +5220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL2202"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 29.21 63.5 0)
 			(effects
 				(font
@@ -4632,7 +5229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/e-switch/TL2202EEYB/16019652"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636-SK43-SMTR-LFS/10071724"
 			(at 29.21 63.5 0)
 			(effects
 				(font
@@ -4650,6 +5247,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTS636 SK43 SMTR LFS"
+			(at 29.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e14e9aaa-761f-415a-8908-d73592a06d7b")
 		)
@@ -4659,7 +5265,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4674,7 +5280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb4f0a1-8040-4ab1-b6b5-a8b272d4ba49")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR034"
 			(at 254 52.07 0)
 			(effects
 				(font
@@ -4724,72 +5330,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d885aafe-6631-4631-a917-54cb511587c1")
-		(property "Reference" "#PWR04"
-			(at 194.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 196.85 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c75af6d-f4bb-46c5-9e6a-c930db97b71e")
-		)
-		(instances
-			(project ""
-				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "#PWR04")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4805,7 +5346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb5fdbd-277d-4cae-8620-d88c3bc49ad2")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 29.21 40.64 0)
 			(effects
 				(font
@@ -4813,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2202"
+		(property "Value" "PTS636"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -4821,7 +5362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL2202"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -4830,7 +5371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/e-switch/TL2202EEYB/16019652"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636-SK43-SMTR-LFS/10071724"
 			(at 29.21 43.18 0)
 			(effects
 				(font
@@ -4848,6 +5389,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTS636 SK43 SMTR LFS"
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "74f516eb-4376-44f1-badd-4e76461c91cc")
 		)
@@ -4857,7 +5407,73 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "SW1")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9f13bc-2c3c-4e1e-a09f-ae47b88d779e")
+		(property "Reference" "#PWR025"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06e60220-bb43-48be-aae5-83d4cdf6ae83")
+		)
+		(instances
+			(project ""
+				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4949,7 +5565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef75e4d1-e03c-4607-ae65-577f99c999eb")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 29.21 72.39 0)
 			(effects
 				(font
@@ -4957,7 +5573,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2202"
+		(property "Value" "PTS636"
 			(at 29.21 74.93 0)
 			(effects
 				(font
@@ -4965,7 +5581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL2202"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 29.21 74.93 0)
 			(effects
 				(font
@@ -4974,7 +5590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/e-switch/TL2202EEYB/16019652"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636-SK43-SMTR-LFS/10071724"
 			(at 29.21 74.93 0)
 			(effects
 				(font
@@ -4992,6 +5608,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTS636 SK43 SMTR LFS"
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6ed1cca-025c-4c30-b6b0-c32fedc0293f")
 		)
@@ -5001,7 +5626,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4954c4d-1b5f-444e-880a-2270bddc26b2")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -5025,7 +5650,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2202"
+		(property "Value" "PTS636"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -5033,7 +5658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL2202"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -5042,7 +5667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/e-switch/TL2202EEYB/16019652"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636-SK43-SMTR-LFS/10071724"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -5060,6 +5685,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTS636 SK43 SMTR LFS"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7f6e49f-4778-46a2-81fa-62449e9ffaaa")
 		)
@@ -5069,7 +5703,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/sparkfun-electronics/16347/11630204"
 			(at 196.85 65.405 0)
 			(effects
 				(font
@@ -5122,6 +5756,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "16347"
 			(at 194.31 55.88 0)
 			(effects
 				(font
