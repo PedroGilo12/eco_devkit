@@ -5319,7 +5319,7 @@
 		)
 		(uuid "0a46af27-8d10-4501-b7c5-ec849c4f5444")
 	)
-	(text "1.2MHz Crystal\n"
+	(text "12MHz Crystal\n"
 		(exclude_from_sim no)
 		(at 487.934 194.818 0)
 		(effects
@@ -10964,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 394.97 144.78 0)
 			(effects
 				(font
@@ -11032,7 +11032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lib:UJ20-C-H-G-SMT-1-P16-TR"
 			(at 74.93 104.14 0)
 			(effects
 				(font
@@ -11156,7 +11156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm"
+		(property "Footprint" "lib:RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm"
 			(at 339.09 168.91 0)
 			(effects
 				(font
@@ -11918,7 +11918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 394.97 156.21 0)
 			(effects
 				(font
@@ -12502,7 +12502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 199.39 0)
 			(effects
 				(font
@@ -12644,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 518.16 219.71 0)
 			(effects
 				(font
@@ -13148,7 +13148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 135.89 0)
 			(effects
 				(font
@@ -13510,7 +13510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 173.99 0)
 			(effects
 				(font
@@ -14315,7 +14315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973fa8e8-48f8-48fe-8195-1ea410ae2f2c")
-		(property "Reference" "FLASH_MEMORY_8MB"
+		(property "Reference" "FLASH_MEMORY_8MB1"
 			(at 127 198.12 0)
 			(effects
 				(font
@@ -14397,7 +14397,7 @@
 		(instances
 			(project "mcu"
 				(path "/2296e89d-2376-4f59-afab-c28ceabc1ea8"
-					(reference "FLASH_MEMORY_8MB")
+					(reference "FLASH_MEMORY_8MB1")
 					(unit 1)
 				)
 			)
@@ -14792,7 +14792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.51 217.17 0)
 			(effects
 				(font
@@ -14939,7 +14939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lib:ABM8-272-T3"
 			(at 474.98 210.82 0)
 			(effects
 				(font
@@ -14948,7 +14948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/abracon-llc/ABM8-272-T3/22472366?s=N4IgTCBcDaIIICECyAOAtGA7GNAVAzCALoC%2BQA"
 			(at 474.98 210.82 0)
 			(effects
 				(font
@@ -14959,6 +14959,15 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 474.98 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ABM8-272-T3"
+			(at 474.98 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,7 +15246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 185.42 0)
 			(effects
 				(font
@@ -15376,7 +15385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 92.71 0)
 			(effects
 				(font
@@ -15806,7 +15815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -16145,7 +16154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f71e68-3020-4df6-b68f-ecf27f0f4816")
-		(property "Reference" "NCP117"
+		(property "Reference" "NCP1117"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -16161,7 +16170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lib:NCP1117ST50T3G"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -16209,7 +16218,7 @@
 		(instances
 			(project "mcu"
 				(path "/2296e89d-2376-4f59-afab-c28ceabc1ea8"
-					(reference "NCP117")
+					(reference "NCP1117")
 					(unit 1)
 				)
 			)
@@ -16396,7 +16405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 179.07 0)
 			(effects
 				(font
