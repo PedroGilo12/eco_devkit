@@ -2206,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 85.09) (xy 176.53 85.09)
+			(xy 167.64 85.09) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 185.42 85.09)
+			(xy 185.42 85.09) (xy 189.23 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2335,7 @@
 		(uuid "fd6a9aa6-d71a-4b97-867b-ec676f8468da")
 	)
 	(label "MIC_AMP"
-		(at 176.53 85.09 180)
+		(at 175.26 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2400,7 +2400,7 @@
 	)
 	(global_label "MIC_OUT"
 		(shape output)
-		(at 185.42 85.09 0)
+		(at 189.23 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2410,7 +2410,7 @@
 		)
 		(uuid "944f3426-7036-4226-a0c6-f474061a4a6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3276 85.09 0)
+			(at 200.1376 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2483,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 29.21 96.5199 0)
 			(effects
 				(font
@@ -2556,7 +2556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3e271f-1a1c-4cba-881d-288b058a6feb")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR045"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2894,7 +2894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43cf7c96-33da-4959-b0e2-9d10c3dcec87")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 34.29 80.0099 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/CRCW040233K0FKEDC/7928423"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/CRCW04021K00FKED/1178007"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -2939,7 +2939,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW040233K0FKEDC"
+		(property "MPN" "CRCW04021K00FKED"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -2957,7 +2957,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5652384d-df5e-4323-99bf-942e85f8a192")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR047"
 			(at 213.36 111.76 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR052")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3127,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 63.5 96.5199 0)
 			(effects
 				(font
@@ -3200,7 +3200,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7240bd07-6941-4a52-a501-df7d3afa839b")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -3297,7 +3297,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c44688-b110-42e1-8409-fe649a32bf9e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR046"
 			(at 153.67 109.22 0)
 			(effects
 				(font
@@ -3363,7 +3363,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR049")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3379,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82120413-bb01-4c26-b4e0-21130caa0d7f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3445,7 +3445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88065d15-bf40-4081-ba0b-c48b42d01f91")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 107.95 77.47 0)
 			(effects
 				(font
@@ -3495,7 +3495,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3511,7 +3511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e33a043-3b9d-4317-bd43-66bbab436836")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 31.75 111.76 0)
 			(effects
 				(font
@@ -3561,7 +3561,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3577,7 +3577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f11752a-08c3-4e0f-adf2-bb7c79db9efe")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 123.19 78.1049 90)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3647,7 +3647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3126ed-1d9f-45a7-820a-77026c360f46")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 31.75 77.47 0)
 			(effects
 				(font
@@ -3697,7 +3697,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3784,16 +3784,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 85.09 90)
+		(at 182.88 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a71f3f7d-86fc-4ccb-ac77-bfbe18a91988")
 		(property "Reference" "R28"
-			(at 179.07 78.74 90)
+			(at 178.816 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3800,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 179.07 81.28 90)
+			(at 185.42 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3808,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.07 85.09 0)
+			(at 182.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,8 +3816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 179.07 85.09 0)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/panasonic-electronic-components/ERJ-2LWFR010X/6004264"
+			(at 182.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3826,16 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 179.07 85.09 0)
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2LWFR010X"
+			(at 182.88 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7fbc7bc-8c5f-4a20-9dd5-ed4a19c93871")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 163.83 77.47 90)
 			(effects
 				(font
@@ -3885,7 +3893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/tdk-corporation/C1005X6S1C105K050EC/22106054"
 			(at 163.83 85.09 0)
 			(effects
 				(font
@@ -3903,6 +3911,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C1005X6S1C105K050EC"
+			(at 163.83 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1b96740-0b7e-4b81-ba6d-7ce2d01c45d3")
 		)
@@ -3912,7 +3929,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3928,7 +3945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3736e28-4e4e-4de3-994c-e84aa1542359")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR050"
 			(at 266.7 101.6 0)
 			(effects
 				(font
@@ -3978,7 +3995,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR057")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4153,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a32c38-8df1-4c39-b7be-4ef64817c298")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 68.58 80.0099 0)
 			(effects
 				(font
@@ -4180,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/CRCW040233K0FKEDC/7928423"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/CRCW04021K00FKED/1178007"
 			(at 66.04 81.28 0)
 			(effects
 				(font
@@ -4198,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW040233K0FKEDC"
+		(property "MPN" "CRCW04021K00FKED"
 			(at 66.04 81.28 0)
 			(effects
 				(font
@@ -4216,7 +4233,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4311,7 +4328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d586e833-34e8-45d3-8f32-336f356adcde")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR048"
 			(at 226.06 111.76 0)
 			(effects
 				(font
@@ -4361,7 +4378,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR053")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4377,7 +4394,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "de04eb2b-9d7b-4699-8a03-58da19b8a199")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 267.97 82.5499 0)
 			(effects
 				(font
@@ -4476,7 +4493,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "U3")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -4571,7 +4588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54cc4ed-ff8a-40f1-afb5-b77cc716885a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR049"
 			(at 266.7 77.47 0)
 			(effects
 				(font
@@ -4621,7 +4638,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "#PWR056")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
