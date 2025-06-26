@@ -1883,13 +1883,14 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Flash"
-			(at -21.59 24.13 0)
+		(property "Reference" "MEM"
+			(at 13.97 22.86 0)
 			(effects
 				(font
 					(size 1.5 1.5)
-					(color 0 0 255 1)
+					(color 0 72 72 1)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -1929,17 +1930,6 @@
 		)
 		(symbol "RP2040_Flash_MEM_1_1"
 			(rectangle
-				(start -15.24 13.97)
-				(end -12.7 5.08)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
 				(start 16.51 13.97)
 				(end 27.94 0)
 				(stroke
@@ -1950,138 +1940,12 @@
 					(type background)
 				)
 			)
-			(text "J1\nconn_01x06"
-				(at -17.78 16.51 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(color 0 72 72 1)
-					)
-				)
-			)
-			(text "U2"
-				(at 17.78 15.24 0)
-				(effects
-					(font
-						(size 0.7 0.7)
-						(color 0 72 72 1)
-					)
-				)
-			)
-			(text "W25Q80DVSSIG "
+			(text "W25Q80DVSSIG"
 				(at 26.67 -1.27 0)
 				(effects
 					(font
 						(size 0.6 0.6)
 						(color 0 72 72 1)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 12.7 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 11.43 0)
-				(length 2.54)
-				(name "SWCLOCK"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 10.16 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 8.89 0)
-				(length 2.54)
-				(name "SWIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 7.62 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
 					)
 				)
 			)
