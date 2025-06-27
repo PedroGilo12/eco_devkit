@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PROBE-SYMBOL-LIB")(type "KiCad")(uri "${KIPRJMOD}/PROBE-SYMBOL-LIB.kicad_sym")(options "")(descr ""))
+)
