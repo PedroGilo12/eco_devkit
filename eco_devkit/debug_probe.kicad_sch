@@ -6149,7 +6149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07807463-b5eb-42b8-9f11-8c588b4d8736")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR071"
 			(at 152.4 40.64 0)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6328,7 +6328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d7cc0c5-e75d-44d8-9b4b-5b1cfa1b5413")
-		(property "Reference" "R40"
+		(property "Reference" "R43"
 			(at 234.95 45.72 90)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R40")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -6396,7 +6396,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "137297f4-de2f-4f99-b1bc-a3cafda6372e")
-		(property "Reference" "R35"
+		(property "Reference" "R38"
 			(at 43.18 153.6699 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R35")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6704,7 +6704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f79d7f-a027-40de-b8fa-ac019081ca5e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR074"
 			(at 191.77 161.29 0)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR070")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6770,7 +6770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b676253-dd06-42b6-a9e2-9af15616dad2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 59.69 195.58 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6835,7 +6835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c45b515-574a-4d27-9d02-51dd124a8b76")
-		(property "Reference" "R36"
+		(property "Reference" "R39"
 			(at 55.88 52.324 90)
 			(effects
 				(font
@@ -6896,7 +6896,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R36")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6982,7 +6982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b87c755-cb21-435f-a839-da38e22a231b")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR060"
 			(at 72.39 53.34 0)
 			(effects
 				(font
@@ -7032,7 +7032,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR056")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7048,7 +7048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bb5bad0-3389-4396-960a-1bff1b2e896e")
-		(property "Reference" "R39"
+		(property "Reference" "R42"
 			(at 144.78 82.5499 0)
 			(effects
 				(font
@@ -7111,7 +7111,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R39")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -7194,7 +7194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4637f644-2a9e-4076-b8fc-57adae5eaf3f")
-		(property "Reference" "R37"
+		(property "Reference" "R40"
 			(at 63.5 56.134 90)
 			(effects
 				(font
@@ -7255,7 +7255,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -7271,7 +7271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d156dc0-b092-4b1c-bf35-3d5ce7b1e6a0")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 38.1 96.52 0)
 			(effects
 				(font
@@ -7321,7 +7321,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7337,7 +7337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ea268b8-18eb-4a50-899c-ab423c7bf224")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR064"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -7387,7 +7387,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7543,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a9627a-edbe-42a2-8ace-d7d5a2655bdb")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 163.83 50.8 0)
 			(effects
 				(font
@@ -7593,7 +7593,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR068")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7958,7 +7958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7404b372-35a0-4566-aead-a9b77bb34749")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR076"
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -8008,7 +8008,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR072")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -8098,7 +8098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f10125c-6e70-4d30-b861-979274740b02")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR066"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "807737b5-150f-4d8a-8d85-856f5191a48b")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 63.754 46.228 0)
 			(effects
 				(font
@@ -8225,7 +8225,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8381,7 +8381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824fa07e-d1c3-47fb-8731-1345b879ef17")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR067"
 			(at 109.22 66.04 0)
 			(effects
 				(font
@@ -8431,7 +8431,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR063")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8447,7 +8447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82dca3c5-8204-4690-87b9-5952f2462ae0")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR078"
 			(at 274.32 43.18 0)
 			(effects
 				(font
@@ -8497,7 +8497,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR074")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8583,7 +8583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce201b0-a17d-4de4-8078-aa6898810369")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 173.99 27.94 0)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8649,7 +8649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93331b01-cce9-45bc-be56-afaa5a337dab")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR075"
 			(at 199.39 161.29 0)
 			(effects
 				(font
@@ -8699,7 +8699,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR071")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8715,7 +8715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07a2f4f-a791-4002-9181-7e0a54900223")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR077"
 			(at 214.63 50.8 0)
 			(effects
 				(font
@@ -8765,7 +8765,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR073")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -8851,7 +8851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb0c8b7-f4e7-43bd-a5db-c6e0341346bc")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR065"
 			(at 100.33 127 0)
 			(effects
 				(font
@@ -8901,7 +8901,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR061")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdee5ebb-6687-4c9e-9dac-c7b7ed53202c")
-		(property "Reference" "R38"
+		(property "Reference" "R41"
 			(at 107.95 121.92 90)
 			(effects
 				(font
@@ -8969,7 +8969,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R38")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -8985,7 +8985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1fdeeba-72f1-4f4d-b061-ae3f71f7b32d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 59.69 152.4 0)
 			(effects
 				(font
@@ -9035,7 +9035,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9051,7 +9051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6378ab4-21ae-46b0-a624-1941a723652a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR070"
 			(at 142.24 80.01 0)
 			(effects
 				(font
@@ -9101,7 +9101,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR066")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d90c37-3228-49b3-bb62-5a670533c49d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -9167,7 +9167,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba32337-d55c-469f-8a48-7c26ef2aff7f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -9233,7 +9233,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9249,7 +9249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09f61d1-9408-43f9-a937-245c93855724")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR059"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -9299,7 +9299,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR055")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9385,7 +9385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d709d5fe-dcbc-45aa-9cc5-e9d5b9658cd2")
-		(property "Reference" "R41"
+		(property "Reference" "R44"
 			(at 234.95 53.34 90)
 			(effects
 				(font
@@ -9437,7 +9437,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "R41")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -9453,7 +9453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f964d8-b3a4-4ceb-84a3-7432f9e8e127")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR068"
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -9503,7 +9503,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR064")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9659,7 +9659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e67ea5f6-eba3-4517-b232-39cd2feb1e87")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR061"
 			(at 77.47 166.37 0)
 			(effects
 				(font
@@ -9709,7 +9709,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR057")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9960,7 +9960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffb81ee1-d15b-49dc-9d9a-f99568b15899")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR069"
 			(at 113.03 182.88 0)
 			(effects
 				(font
@@ -10010,7 +10010,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "#PWR065")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
