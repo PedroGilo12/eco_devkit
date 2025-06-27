@@ -4633,6 +4633,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 179.07) (xy 106.68 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4456e0a3-6953-4c21-8b99-2a387555d324")
+	)
+	(wire
+		(pts
 			(xy 55.88 62.23) (xy 76.2 62.23)
 		)
 		(stroke
@@ -4893,6 +4903,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 181.61) (xy 106.68 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f63211d-887b-474e-b310-713a9e56d5f4")
+	)
+	(wire
+		(pts
 			(xy 247.65 31.75) (xy 256.54 31.75)
 		)
 		(stroke
@@ -4990,16 +5010,6 @@
 			(type default)
 		)
 		(uuid "8d46a714-0982-43ae-9b6c-372d8cd34c2e")
-	)
-	(wire
-		(pts
-			(xy 100.33 179.07) (xy 96.52 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed5e8c2-59f4-4493-a309-d8ed0563f2d3")
 	)
 	(wire
 		(pts
@@ -5200,16 +5210,6 @@
 			(type default)
 		)
 		(uuid "b2b3c94a-831b-45f0-a4b1-861a7bd2c66d")
-	)
-	(wire
-		(pts
-			(xy 100.33 181.61) (xy 96.52 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63b99ed-6a15-48af-8c7b-80835dc715a3")
 	)
 	(wire
 		(pts
@@ -6002,12 +6002,12 @@
 		(uuid "c51ad530-894c-4c6b-a0fe-d45a224cf782")
 	)
 	(label "SWDIO"
-		(at 100.33 179.07 0)
+		(at 106.68 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cddfc6b6-c113-4be8-b0e5-6c3f62e83469")
 	)
@@ -6042,16 +6042,16 @@
 		(uuid "e9d8e30a-6031-4256-af2e-8663e1fa0c7c")
 	)
 	(label "RESET"
-		(at 100.33 181.61 0)
+		(at 106.68 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ff6d9a89-b6ef-486f-9ec3-6f96dccebe00")
 	)
-	(global_label "POBRE_GPIO5{slash}UART_RX"
+	(global_label "POBRE_GPIO5{slash}UART0_RX"
 		(shape output)
 		(at 232.41 77.47 0)
 		(fields_autoplaced yes)
@@ -6063,7 +6063,7 @@
 		)
 		(uuid "4e96fd7e-7520-455d-9b39-cf255e050f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.7714 77.47 0)
+			(at 258.9809 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6117,7 @@
 			)
 		)
 	)
-	(global_label "PROBE_GPIO4{slash}UART_TX"
+	(global_label "PROBE_GPIO4{slash}UART0_TX"
 		(shape output)
 		(at 232.41 74.93 0)
 		(fields_autoplaced yes)
@@ -6129,7 +6129,7 @@
 		)
 		(uuid "b9f65610-adc8-40f4-809c-5a4bc1fe341d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.469 74.93 0)
+			(at 258.6785 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-1-p16-tr.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-1-P16-TR/24818576"
 			(at 41.91 64.77 0)
 			(effects
 				(font
@@ -6250,6 +6250,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-SMT-1-P16-TR"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -6326,10 +6335,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d7cc0c5-e75d-44d8-9b4b-5b1cfa1b5413")
 		(property "Reference" "R43"
-			(at 234.95 45.72 90)
+			(at 231.394 50.546 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6337,7 +6345,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 234.95 48.26 90)
+			(at 237.998 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/RCS040227R0FKED/5867523"
 			(at 234.95 52.07 0)
 			(effects
 				(font
@@ -6364,6 +6372,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 234.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCS040227R0FKED"
+			(at 234.95 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402W106M6R3HI/18677011?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANrhwAEArQGIgC6pADgC5QgCqAdgEtOAeUwBZQtnwBXAE6EQAX1IBaBKhAZIOAiXJUQSAMxgEEFipCqYm7Zzkz9FSNQCsrJVYBsmwQBMeVTA4CA5uSBAQUk4AT3ZFSOkMLyA"
 			(at 82.55 54.61 0)
 			(effects
 				(font
@@ -6503,6 +6520,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402W106M6R3HI"
 			(at 82.55 54.61 0)
 			(effects
 				(font
@@ -6544,7 +6570,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1Mbit Flash"
 			(at 63.5 172.9613 0)
 			(effects
 				(font
@@ -6562,7 +6588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25eu0011a-datasheet?queryID=ed8c6ba78147112c14d68ef10663fafc"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/renesas-electronics-corporation/AT25EU0011A-SSHN-T/14309093"
 			(at 56.642 173.736 0)
 			(effects
 				(font
@@ -6572,6 +6598,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AT25EU0011A-SSHN-T "
 			(at 54.61 172.72 0)
 			(effects
 				(font
@@ -6939,7 +6974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 163.83 26.67 0)
 			(effects
 				(font
@@ -6949,6 +6984,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 163.83 26.67 0)
 			(effects
 				(font
@@ -7125,10 +7169,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ce11e7d-ab07-4a0c-8f53-4ccebe6b76e3")
 		(property "Reference" "C27"
-			(at 71.1136 121.92 90)
+			(at 67.818 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +7179,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 71.1136 124.46 90)
+			(at 74.422 126.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 247.65 26.67 0)
 			(effects
 				(font
@@ -7440,6 +7483,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 247.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 247.65 26.67 0)
 			(effects
 				(font
@@ -7500,7 +7552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/tdk-corporation/C1005X6S1C105K050EC/22106054"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -7510,6 +7562,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X6S1C105K050EC"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -7636,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 77.47 153.67 0)
 			(effects
 				(font
@@ -7646,6 +7707,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 77.47 153.67 0)
 			(effects
 				(font
@@ -7677,9 +7747,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c141b8b-4838-4938-8f0c-218021f53c25")
-		(property "Reference" "PWR1"
+		(property "Reference" "NCP2"
 			(at 96.52 43.18 0)
 			(effects
 				(font
@@ -7687,8 +7756,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 96.52 44.45 0)
+		(property "Value" "NCP1117"
+			(at 96.52 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,6 +7791,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "NCP1117LPST33T3G"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9840160b-16ae-4324-a66e-744fc54c9791")
 		)
@@ -7734,7 +7812,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/c6fed0ca-04fe-4a1a-8542-8833eebee5d1"
-					(reference "PWR1")
+					(reference "NCP2")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 152.4 26.67 0)
 			(effects
 				(font
@@ -7787,6 +7865,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 152.4 26.67 0)
 			(effects
 				(font
@@ -7818,10 +7905,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6fdbbcd3-c335-4398-b728-56687c5a72ef")
 		(property "Reference" "C26"
-			(at 71.1263 104.14 90)
+			(at 67.564 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7915,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 71.1263 106.68 90)
+			(at 74.422 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402W106M6R3HI/18677011?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANrhwAEArQGIgC6pADgC5QgCqAdgEtOAeUwBZQtnwBXAE6EQAX1IBaBKhAZIOAiXJUQSAMxgEEFipCqYm7Zzkz9FSNQCsrJVYBsmwQBMeVTA4CA5uSBAQUk4AT3ZFSOkMLyA"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -7925,6 +8011,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402W106M6R3HI"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -8268,7 +8363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 256.54 26.67 0)
 			(effects
 				(font
@@ -8278,6 +8373,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 256.54 26.67 0)
 			(effects
 				(font
@@ -8338,7 +8442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/tdk-corporation/C1005X6S1C105K050EC/22106054"
 			(at 163.83 41.91 0)
 			(effects
 				(font
@@ -8348,6 +8452,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X6S1C105K050EC"
 			(at 163.83 41.91 0)
 			(effects
 				(font
@@ -8540,7 +8653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 227.33 26.67 0)
 			(effects
 				(font
@@ -8550,6 +8663,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 227.33 26.67 0)
 			(effects
 				(font
@@ -8808,7 +8930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 214.63 26.67 0)
 			(effects
 				(font
@@ -8818,6 +8940,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 214.63 26.67 0)
 			(effects
 				(font
@@ -8942,7 +9073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/CRCW04021K00FKED/1178007"
 			(at 107.95 128.27 0)
 			(effects
 				(font
@@ -8953,6 +9084,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04021K00FKED"
+			(at 107.95 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9342,7 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 274.32 26.67 0)
 			(effects
 				(font
@@ -9352,6 +9492,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 274.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 274.32 26.67 0)
 			(effects
 				(font
@@ -9383,10 +9532,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d709d5fe-dcbc-45aa-9cc5-e9d5b9658cd2")
 		(property "Reference" "R44"
-			(at 234.95 53.34 90)
+			(at 231.14 58.42 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9394,7 +9542,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 234.95 55.88 90)
+			(at 238.506 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/RCS040227R0FKED/5867523"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -9421,6 +9569,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCS040227R0FKED"
+			(at 234.95 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 237.49 26.67 0)
 			(effects
 				(font
@@ -9556,6 +9713,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 237.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 237.49 26.67 0)
 			(effects
 				(font
@@ -9616,7 +9782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KP5NNNC_Spec.pdf"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/nextgen-components/0402B104K250HI/14670955"
 			(at 265.43 26.67 0)
 			(effects
 				(font
@@ -9626,6 +9792,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B104K250HI"
 			(at 265.43 26.67 0)
 			(effects
 				(font
@@ -9734,7 +9909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "RP2040"
 			(at 197.3216 125.73 0)
 			(effects
 				(font
@@ -9762,6 +9937,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SC0914(13)"
 			(at 191.77 100.33 0)
 			(effects
 				(font

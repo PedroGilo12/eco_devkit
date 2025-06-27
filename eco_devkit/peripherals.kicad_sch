@@ -3553,16 +3553,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 41.91) (xy 248.92 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "543faf61-71b3-4edc-bbb2-cc42a3237987")
-	)
-	(wire
-		(pts
 			(xy 162.56 54.61) (xy 162.56 59.69)
 		)
 		(stroke
@@ -4143,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 57.15) (xy 242.57 57.15)
+			(xy 243.84 57.15) (xy 242.57 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4303,7 +4293,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 41.91) (xy 245.11 57.15)
+			(xy 243.84 41.91) (xy 243.84 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5829,7 +5819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/vishay-dale/CRCW04021K00FKED/1178007"
 			(at 162.56 52.07 0)
 			(effects
 				(font
@@ -5839,6 +5829,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04021K00FKED"
 			(at 162.56 52.07 0)
 			(effects
 				(font
@@ -7694,6 +7693,71 @@
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 243.84 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6022df0-df2d-4985-ab07-6204fd0f17a1")
+		(property "Reference" "#PWR098"
+			(at 243.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 243.84 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db81ade-f9c2-40cf-ac7a-378b1328fbd4")
+		)
+		(instances
+			(project "eco_devkit"
+				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/146c382c-2a6c-4a12-90a2-a26f2a1dd60b"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
