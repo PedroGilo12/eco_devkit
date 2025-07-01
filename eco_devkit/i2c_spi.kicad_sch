@@ -4899,7 +4899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30bcc664-05fb-43a0-8cc6-4d9517d18d28")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 241.935 57.15 0)
 			(effects
 				(font
@@ -4984,7 +4984,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/18936539-b78a-4a13-b6a3-f93843840718"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ecc2539-bd19-4cc4-91b0-e49986d520a3")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 94.996 57.658 0)
 			(effects
 				(font
@@ -6291,7 +6291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32R-1A7x1-11016_1x16-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32R-1A7x1-11028_1x28-1MP_P0.5mm_Horizontal"
 			(at 95.25 80.01 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/18936539-b78a-4a13-b6a3-f93843840718"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)

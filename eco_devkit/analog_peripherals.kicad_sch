@@ -2622,7 +2622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218b7c09-c22f-46c0-b500-a97a292fbb7d")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 80.01 88.2649 90)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4215bcde-4e89-4a66-b2b8-96d38e8df371")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 45.72 88.2649 90)
 			(effects
 				(font
@@ -2878,7 +2878,7 @@
 		(instances
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3577,7 +3577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f11752a-08c3-4e0f-adf2-bb7c79db9efe")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 123.19 78.1049 90)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 		(instances
 			(project "eco_devkit"
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
