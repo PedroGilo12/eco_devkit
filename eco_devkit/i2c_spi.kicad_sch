@@ -5869,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 262.89 119.38 0)
 			(effects
 				(font
@@ -6254,7 +6254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EcoDevkit:LTR-329ALS-01_LTO"
 			(at 52.07 157.48 0)
 			(effects
 				(font
@@ -6653,7 +6653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 262.89 140.97 0)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 				)
 			)
 		)
-		(property "Value" "MCOT064032A1V-YI"
+		(property "Value" "DISPLAY FFC"
 			(at 186.944 58.42 0)
 			(effects
 				(font
@@ -7771,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EcoDevkit:AMPHENOL_SFV28R-2STE1HLF"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -7780,7 +7780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/midas-displays/MCOT064032A1V-YI/21322647"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/cvilux-usa/CF4228FH0R0-05-NH/15793186"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -7789,7 +7789,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRAPHIC DISPLAY OLED YELLOW 0.49"
+		(property "Description" "CONN FFC FPC 28POS 0.5MM R/A"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CF4228FH0R0-05-NH"
 			(at 184.15 78.74 0)
 			(effects
 				(font
