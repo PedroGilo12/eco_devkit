@@ -522,7 +522,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -531,42 +531,78 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Descrição",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referência"
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -614,16 +650,12 @@
       "Root"
     ],
     [
-      "01b471de-c612-4c05-9f18-622267b73119",
-      "Power Supply"
-    ],
-    [
       "c5de08d4-6dd7-45aa-a926-c80cdd2f363a",
       "MCU"
     ],
     [
       "146c382c-2a6c-4a12-90a2-a26f2a1dd60b",
-      "peripherals"
+      "Digital Peripherals"
     ],
     [
       "a3f9a86b-c305-4ba8-be31-b3cd3a950ab4",
@@ -634,8 +666,8 @@
       "Debug Probe"
     ],
     [
-      "df3f7b28-1772-4d0c-9080-ae00bbd9151c",
-      "Bluetooth Module"
+      "18936539-b78a-4a13-b6a3-f93843840718",
+      "I2C and SPI Peripherals"
     ]
   ],
   "text_variables": {}
