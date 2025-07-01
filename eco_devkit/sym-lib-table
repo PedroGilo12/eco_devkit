@@ -2,7 +2,6 @@
   (version 7)
   (lib (name "EcoDevkit")(type "KiCad")(uri "${KIPRJMOD}/lib/TC33X-2-203E.kicad_sym")(options "")(descr ""))
   (lib (name "peripherals_eco_devkit")(type "KiCad")(uri "${KIPRJMOD}/lib/peripherals_eco_devkit.kicad_sym")(options "")(descr ""))
-  (lib (name "bg22")(type "KiCad")(uri "${KIPRJMOD}/bg22.kicad_sym")(options "")(descr ""))
   (lib (name "peripherals2")(type "KiCad")(uri "${KIPRJMOD}/lib/peripherals2.kicad_sym")(options "")(descr ""))
   (lib (name "PROBE-SYMBOL-LIB")(type "KiCad")(uri "${KIPRJMOD}/PROBE-SYMBOL-LIB.kicad_sym")(options "")(descr ""))
 )
