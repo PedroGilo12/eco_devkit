@@ -9714,7 +9714,7 @@
 		)
 		(uuid "98fb98c6-04ef-4755-9a11-c2fcda9f6c04")
 	)
-	(label "XOUT"
+	(label "XIN"
 		(at 303.53 214.63 0)
 		(effects
 			(font
