@@ -4,4 +4,5 @@
   (lib (name "ABM8_272_T3")(type "KiCad")(uri "${KIPRJMOD}/ABM8_272_T3")(options "")(descr "")(disabled))
   (lib (name "Footprint-FlashMEM")(type "KiCad")(uri "${KIPRJMOD}/Footprint-FlashMEM")(options "")(descr ""))
   (lib (name "EcoDevkit")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
 )
