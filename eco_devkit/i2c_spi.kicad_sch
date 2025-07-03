@@ -8128,7 +8128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EcoDevkit:AMPHENOL_SFV28R-2STE1HLF"
+		(property "Footprint" "EcoDevkit:FPC_30"
 			(at 184.15 78.74 0)
 			(effects
 				(font
