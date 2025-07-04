@@ -6306,6 +6306,16 @@
 	)
 	(wire
 		(pts
+			(xy 472.44 185.42) (xy 491.49 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fb2793-1ff5-4cf9-98f1-3d21dbfa584d")
+	)
+	(wire
+		(pts
 			(xy 361.95 161.29) (xy 361.95 130.81)
 		)
 		(stroke
@@ -7216,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 215.9) (xy 386.08 215.9)
+			(xy 386.08 215.9) (xy 403.86 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8196,7 +8206,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 218.44) (xy 386.08 218.44)
+			(xy 386.08 218.44) (xy 403.86 218.44)
 		)
 		(stroke
 			(width 0)
@@ -10485,6 +10495,29 @@
 			)
 		)
 	)
+	(global_label "IR_TX"
+		(shape output)
+		(at 403.86 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "3db427ce-0711-4e7c-84ff-a5efb6d6eb4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.8647 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO41_ADC1"
 		(shape bidirectional)
 		(at 398.78 280.67 0)
@@ -10547,6 +10580,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO14"
+		(shape bidirectional)
+		(at 472.44 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e003b6d-0d4d-42d1-9327-760c3974d145")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 461.4492 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11147,6 +11202,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_CS"
+		(shape output)
+		(at 491.49 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b325466f-6c0c-4bda-9a04-d61ef56ca943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 505.4819 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO47_ADC7"
 		(shape bidirectional)
 		(at 398.78 295.91 0)
@@ -11365,6 +11442,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IR_RX"
+		(shape output)
+		(at 403.86 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "c87bdffb-083e-496a-837d-04e683083d62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 412.1671 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
