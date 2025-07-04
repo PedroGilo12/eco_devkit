@@ -7961,12 +7961,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
-			(at 173.99 19.05 0)
+		(property "Value" "+1V1_PROBE"
+			(at 176.53 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
