@@ -8526,7 +8526,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 193.04) (xy 400.05 193.04)
+			(xy 386.08 193.04) (xy 398.78 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10230,6 +10230,28 @@
 			)
 		)
 	)
+	(global_label "GPIO42_ADC2"
+		(shape bidirectional)
+		(at 398.78 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12f67326-867d-482e-814d-80a7323a513d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 415.5765 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWD"
 		(shape bidirectional)
 		(at 137.16 287.02 0)
@@ -10243,6 +10265,28 @@
 		(uuid "1aabed27-69ef-461b-bb52-54b2f8c1a311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.1874 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO41_ADC1"
+		(shape bidirectional)
+		(at 398.78 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bdfc68f-400a-4b53-ad0d-cc9f85d9d4e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 415.5765 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,29 +10375,6 @@
 		(uuid "2117b068-2c43-4ca0-926f-54fe9024ea0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.9455 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PIN_WIFI_RX"
-		(shape output)
-		(at 398.78 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "2374236b-2a3d-4f1d-a44f-1cef31105d5c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.1348 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,6 +10473,29 @@
 			)
 		)
 	)
+	(global_label "PIN_WIFI_RX"
+		(shape output)
+		(at 398.78 278.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "32af5119-2543-407a-9ae2-358585ff0761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 413.1348 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PIN_LED_RED"
 		(shape output)
 		(at 398.78 274.32 0)
@@ -10497,6 +10541,29 @@
 			)
 		)
 	)
+	(global_label "PIN_WIFI_RESET_BL"
+		(shape output)
+		(at 398.78 283.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "3ae5c8fb-7531-43a1-bb94-42cdd7278dc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 419.6661 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ACCEL_SCK"
 		(shape input)
 		(at 490.22 241.3 0)
@@ -10510,28 +10577,6 @@
 		(uuid "3b37a505-1d2c-4af1-8e29-c90d9475e5fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 503.728 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO41_ADC1"
-		(shape bidirectional)
-		(at 398.78 280.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42ad6cbf-9079-4eb2-afbe-017df963616f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 415.5765 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,6 +10652,29 @@
 			)
 		)
 	)
+	(global_label "IR_RX"
+		(shape output)
+		(at 398.78 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "4eab94c2-1ef0-43f7-80cc-46ce50049eef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 407.0871 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO13"
 		(shape bidirectional)
 		(at 472.44 182.88 180)
@@ -10673,28 +10741,6 @@
 			)
 		)
 	)
-	(global_label "PIN_BTN4"
-		(shape input)
-		(at 398.78 259.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64279552-4f02-4eff-9cb5-8b72b1b016c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 410.7157 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO20"
 		(shape bidirectional)
 		(at 473.71 241.3 180)
@@ -10739,6 +10785,29 @@
 			)
 		)
 	)
+	(global_label "PIN_WIFI_TX"
+		(shape input)
+		(at 398.78 280.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "728a1a5a-2d5c-485d-b80e-505c95560222")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 413.3084 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO27"
 		(shape bidirectional)
 		(at 473.71 243.84 180)
@@ -10774,6 +10843,29 @@
 		(uuid "75277d5a-bc08-4c78-9010-7263a8e9b7f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 422.8714 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IR_TX"
+		(shape input)
+		(at 398.78 285.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "79faee3d-82e2-4049-b2ac-5b0d091513fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.7847 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,29 +11096,6 @@
 			)
 		)
 	)
-	(global_label "PIN_WIFI_RESET_BL"
-		(shape output)
-		(at 400.05 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "a7bc19c5-e812-4d60-aa16-ac848ba5e265")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.9361 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDCARD_CD"
 		(shape output)
 		(at 488.95 213.36 0)
@@ -11111,28 +11180,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO43_ADC3"
-		(shape bidirectional)
-		(at 398.78 285.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b68ae610-e6dd-443b-b4e0-740b53a32faf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 415.5765 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11337,28 +11384,6 @@
 			)
 		)
 	)
-	(global_label "GPIO40_ADC0"
-		(shape bidirectional)
-		(at 398.78 278.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cff2d692-3544-472e-abc8-5cc843eb9b36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 415.5765 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RUN"
 		(shape bidirectional)
 		(at 137.16 284.48 0)
@@ -11394,28 +11419,6 @@
 		(uuid "db696c26-07f5-4250-8926-0e53cf5df178")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 502.458 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO42_ADC2"
-		(shape bidirectional)
-		(at 398.78 283.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbcd83e1-23f5-4a23-ac58-64c5269cfe48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 415.5765 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,6 +11487,28 @@
 		(uuid "e571ca21-10a5-4154-9d68-afbaa6ff6469")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 422.7504 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO40_ADC0"
+		(shape bidirectional)
+		(at 398.78 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e973037e-cab8-4b99-b0dd-3f72c383f9c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 415.5765 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,6 +11607,28 @@
 			)
 		)
 	)
+	(global_label "PIN_BTN4"
+		(shape input)
+		(at 393.7 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f92682d3-cf13-4515-ad5c-e4498a400da6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 405.6357 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO19"
 		(shape bidirectional)
 		(at 473.71 238.76 180)
@@ -11640,29 +11687,6 @@
 		(uuid "fbe89faa-5c50-4d79-be76-5c8da9ff7353")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 410.7157 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PIN_WIFI_TX"
-		(shape input)
-		(at 398.78 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "fcb0641f-e6e1-44e9-9f01-a8359fc9a7e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.3084 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

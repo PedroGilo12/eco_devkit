@@ -7961,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "+1V1_PROBRE"
 			(at 173.99 19.05 0)
 			(effects
 				(font
