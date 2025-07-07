@@ -1550,6 +1550,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 88.9) (xy 214.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84417423-ca33-47a9-bcc2-9745fd1bec7f")
+	)
+	(wire
+		(pts
 			(xy 191.77 82.55) (xy 191.77 88.9)
 		)
 		(stroke
@@ -1587,16 +1597,6 @@
 			(type default)
 		)
 		(uuid "9851edba-9bb4-48a8-83ea-4ec835a0c658")
-	)
-	(wire
-		(pts
-			(xy 205.74 88.9) (xy 227.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a88bc33-29fc-4d68-bcce-0f5c16d71d3e")
 	)
 	(wire
 		(pts
@@ -1657,6 +1657,16 @@
 			(type default)
 		)
 		(uuid "eae69293-4f80-4e80-a956-90db634ee8e5")
+	)
+	(wire
+		(pts
+			(xy 217.17 88.9) (xy 227.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf67e3b-d7ba-4141-a38d-02cdacf96177")
 	)
 	(wire
 		(pts
@@ -2897,6 +2907,76 @@
 			(project ""
 				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 217.17 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba76ef2a-46f4-4b7d-b090-7c329988b5ef")
+		(property "Reference" "J12"
+			(at 218.44 83.1849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADC_SEL1"
+			(at 218.44 85.7249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17b9c16e-9f4f-4fae-94bf-306b47664424")
+		)
+		(pin "1"
+			(uuid "29c357d3-33a7-4435-a343-98fb4e41bfaa")
+		)
+		(instances
+			(project "eco_devkit"
+				(path "/308cd3d6-c3d9-49fe-9127-06fda61df52b/a3f9a86b-c305-4ba8-be31-b3cd3a950ab4"
+					(reference "J12")
 					(unit 1)
 				)
 			)
